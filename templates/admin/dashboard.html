@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <script src="{{ url_for('static', filename='tailwind.js') }}"></script>
+
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <nav class="bg-blue-600 text-white px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Admin Dashboard</h1>
+        <div>Welcome, <span class="font-semibold">{{ current_user.username }}</span></div>
+    </nav>
+    <div class="p-6">
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <a href="{{ url_for('admin.admin_panel') }}"
+                class="block p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+                ➕ Add Category & Products
+            </a>
+            <a href="{{ url_for('modify.modify_data_page') }}"
+                class="block p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+                ✏️ Modify Data
+            </a>
+            <a href="{{ url_for('contact_bp.admin_contacts') }}"
+                class="block p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+                📬 View Contact Form Submissions
+            </a>
+            <a href="{{ url_for('admin.logout') }}"
+                class="block p-6 bg-red-100 text-red-600 rounded-lg shadow hover:shadow-md transition">
+                🚪 Logout
+            </a>
+                <a href="{{ url_for('index') }}"
+                class="inline-flex items-center px-3 py-2 bg-black text-white rounded-md shadow hover:bg-gray-800 transition duration-200 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+                Go To Home Page
+            </a>
+            
+        </div>
+    </div>
+</body>
+
+</html>
