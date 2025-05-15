@@ -27584,3 +27584,5 @@
 [2025-05-15 11:22:44,915] INFO: 127.0.0.1 - - [15/May/2025 11:22:44] "[36mGET /static/images/portable/p-2.jpg HTTP/1.1[0m" 304 -
 [2025-05-15 11:22:44,920] INFO: 127.0.0.1 - - [15/May/2025 11:22:44] "[36mGET /static/images/portable/p-3.jpg HTTP/1.1[0m" 304 -
 [2025-05-15 11:22:44,930] INFO: 127.0.0.1 - - [15/May/2025 11:22:44] "[36mGET /static/images/person.jpg HTTP/1.1[0m" 304 -
+[2025-05-15 11:25:38,903] INFO: Flask App started
+[2025-05-15 11:25:39,049] INFO: Flask App started
