@@ -737,3 +737,15 @@
 [2025-05-27 16:18:05,694] INFO: 127.0.0.1 - - [27/May/2025 16:18:05] "GET /static/uploads/products/product_1747201918_5.jpg.jpg HTTP/1.1" 200 -
 [2025-05-27 16:18:05,699] INFO: 127.0.0.1 - - [27/May/2025 16:18:05] "GET /static/uploads/products/product_1747201918_3.jpg.jpg HTTP/1.1" 200 -
 [2025-05-27 16:18:05,749] INFO: 127.0.0.1 - - [27/May/2025 16:18:05] "GET /static/uploads/products/product_1747201918_4.jpg.jpg HTTP/1.1" 200 -
+[2025-05-27 21:27:26,501] INFO:  * Detected change in 'C:\\Users\\sahil\\Downloads\\Product-Management-final\\app.py', reloading
+[2025-05-27 21:27:26,896] INFO:  * Restarting with stat
+[2025-05-27 21:27:28,449] WARNING:  * Debugger is active!
+[2025-05-27 21:27:28,453] INFO:  * Debugger PIN: 113-195-387
+[2025-05-27 21:27:48,256] INFO:  * Detected change in 'C:\\Users\\sahil\\Downloads\\Product-Management-final\\routes\\contact.py', reloading
+[2025-05-27 21:27:48,426] INFO:  * Restarting with stat
+[2025-05-27 21:27:49,697] WARNING:  * Debugger is active!
+[2025-05-27 21:27:49,699] INFO:  * Debugger PIN: 113-195-387
+[2025-05-27 21:27:59,128] INFO:  * Detected change in 'C:\\Users\\sahil\\Downloads\\Product-Management-final\\venv\\Lib\\site-packages\\alembic\\operations\\batch.py', reloading
+[2025-05-27 21:27:59,305] INFO:  * Restarting with stat
+[2025-05-27 21:28:01,829] WARNING:  * Debugger is active!
+[2025-05-27 21:28:01,832] INFO:  * Debugger PIN: 113-195-387

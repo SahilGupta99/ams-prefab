@@ -26,6 +26,10 @@
    -> Then commit the pushing project without commit can't push: "git commit -m "commiting amsprefab" "
    -> Set the branch to main: "git branch -M main"
    -> Then finally push the code to public repositary: "git push -u origin main"
+   -> This is for initialize .gitignore: "git add .gitignore"
+                                          "git commit -m "Add .gitignore to exclude venv and logs""
+                                          
+
 
   
 
