@@ -1,0 +1,36 @@
+1. To create a virtual enviroment: 'python -m venv venv'
+   
+2. Activation of virtual enviroment: 'venv\Scripts\activate'
+
+3. To Create requirements.txt: "pip freeze > requirements.txt"
+
+4. To Install requirements.txt: "pip install -r requirements.txt"
+
+5. Github:
+   --> Setup remote origin 
+    a. Setup remote origin first time: "git remote add origin https://github.com/SahilGupta99/ams-prefab.git"
+    b. Setup remote origin changing existing one: "git remote set-url origin https://github.com/SahilGupta99/ams-prefab.git"
+
+   --> check remote origin: "git remote -v"
+
+6. Github setup :
+   -> to initialize git: "git init"
+   -> continue to step-5
+   -> create a file .gitignore for removing unwanted files.
+     includes: venv/
+                __pycache__/
+                *.pyc
+                .env
+
+   -> add all files: "git add ."
+   -> Then commit the pushing project without commit can't push: "git commit -m "Initial commit of Flask project" "
+   -> Set the branch to main: "git branch -M main"
+   -> Then finally push the code to public repositary: "git push -u origin main"
+
+  
+
+
+
+
+
+    
