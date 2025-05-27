@@ -9,7 +9,7 @@
 5. Github:
    --> Setup remote origin 
     a. Setup remote origin first time: "git remote add origin https://github.com/SahilGupta99/ams-prefab.git"
-    b. Setup remote origin changing existing one: "git remote set-url origin https://github.com/SahilGupta99/ams-prefab.git"
+    b. Setup remote origin changing existing one: "git remote set-url origin https://github.com/SahilGupta99/amsprefab.git"
 
    --> check remote origin: "git remote -v"
 
@@ -28,7 +28,7 @@
    -> Then finally push the code to public repositary: "git push -u origin main"
    -> This is for initialize .gitignore: "git add .gitignore"
                                           "git commit -m "Add .gitignore to exclude venv and logs""
-                                          
+
 
 
   
