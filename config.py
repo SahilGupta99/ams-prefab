@@ -5,7 +5,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = (
         "mysql+mysqlconnector://avnadmin:AVNS_6Y_ELomxkTzGtorz1p5@"
         "prefab-ams-prefab.l.aivencloud.com:22480/defaultdb"
-        "?ssl_ca=/Product-Management-final/ca.pem"
+        "?ssl_ca=/amsprefab/ca.pem"
         )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOAD_FOLDER = "static/uploads"
